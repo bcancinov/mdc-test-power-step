@@ -1,0 +1,110 @@
+(footprint "PWR163"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "46e6d9c3-0dd3-4d87-815b-73e3d4646be6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "PWR163"
+		(at -11.5 -11.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f61c0ad-56ed-47af-9355-3f02e0786b02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "361af504-b2eb-4cb0-8190-501a88399dce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "004dbc9c-524b-43cf-bb25-4f7190d7049d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -4.565 -6.645)
+		(end 4.565 8.145)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "42519566-fc3d-441a-b22a-37ac4bee1a37")
+	)
+	(fp_rect
+		(start -4.065 -6.145)
+		(end 4.065 6.145)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "378a4acc-af68-4d25-886d-0e34b04cf95b")
+	)
+	(pad "1" smd rect
+		(at -2.54 5.905)
+		(size 1.62 3.81)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a75e434c-286f-4142-a505-c114ebe3ea8b")
+	)
+	(pad "2" smd rect
+		(at 2.54 5.905)
+		(size 1.62 3.81)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f11e19f2-9cbb-494f-a0df-fd362da211cc")
+	)
+	(pad "3" smd rect
+		(at 0 -2.035)
+		(size 7.87 8.51)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9ca5c1e9-2fe3-4315-ab8d-7604720828d8")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/step/pwr163.stp"
+		(offset
+			(xyz 0 1.5 -0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

@@ -1,0 +1,147 @@
+(footprint "XGL4020"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.42 4.18 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5973dc1c-5cb5-4b29-9858-b70e3c11553e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "XGL4020"
+		(at 0.63 5.78 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8db6bca0-de05-4333-94aa-a9880f5bbcca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f61364bd-ef74-4759-9322-2116d390f83f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f458bceb-9ce3-4659-bd92-73d7aa11e631")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.12 1)
+		(end -2.12 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e472f7e4-62c8-4be1-b2ce-f5964bf74f89")
+	)
+	(fp_line
+		(start -1 -2.12)
+		(end 1 -2.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "000a7955-4be7-459a-b4c0-681af7d0ba06")
+	)
+	(fp_line
+		(start -1 2.11)
+		(end 1 2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd9687c6-8b57-4ad3-bf09-428d79c7e99b")
+	)
+	(fp_rect
+		(start -2.5 -2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "be96f7a0-c1d7-431b-a0e0-6cbdab73cfd7")
+	)
+	(fp_rect
+		(start -2 -2)
+		(end 2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d43bdbe5-9e6f-42f3-a11b-2d89b38166d1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.63 7.28 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ba983526-ca1f-4efb-837e-bbf73984dcd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.185 0)
+		(size 0.98 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "8d38b47c-f536-456d-8674-f7d2a155087a")
+	)
+	(pad "2" smd roundrect
+		(at 1.185 0)
+		(size 0.98 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "12685335-e8b3-4f77-ad0c-30e190afc98f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/step/Coilcraft-XGL4020.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
