@@ -2944,7 +2944,7 @@
 		)
 		(uuid "ca45c6fd-9bde-438c-b426-53424314d6c0")
 	)
-	(text "Step Resistors\n3.3V, 0.6A, 5.6ohm, LTR100JZPF5R60\n6.0V, 0.3A, 20ohm, LTR100JZPF20R0\n16V, 0.05A, 320ohm, LTR100JZPF3300"
+	(text "Step Resistors\n3.3V, 0.6A, 5.6ohm, LTR100JZPF5R60\n6.0V, 0.3A, 20ohm, LTR100JZPF20R0\n16V, 0.05A, 330ohm, LTR100JZPF3300"
 		(exclude_from_sim no)
 		(at 40.894 123.19 0)
 		(effects

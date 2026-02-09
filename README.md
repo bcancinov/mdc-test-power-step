@@ -13,12 +13,25 @@ This board generates controlled load steps at multiple bias rails to evaluate DC
 - This board provides load-step capability and measurement access for those rails.
 - Board input: 12V.
 
+## Board Stackup
+- 4-layer PCB
+
+## Board Dimensions
+- 136.4 mm x 105.35 mm
+
 ## Key Functions
 - Programmable load steps using MOSFET-switched resistor banks.
 - Multiple selectable load levels per rail.
 - Local support rails and timing (LDO + oscillator) for step control.
 - External 3.3V step input for injecting step signals on both positive and negative DUT outputs.
 - 2 MHz oscillator to provide a sync reference for the DC-DC DUT.
+
+## Images
+Layout:
+![Layout](img/layout.png)
+
+3D view:
+![3D view](img/3d.png)
 
 ## Load Step Networks (from schematic)
 High-power resistors (primary load steps):
