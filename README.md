@@ -19,6 +19,9 @@ This board generates controlled load steps at multiple bias rails to evaluate DC
 ## Board Dimensions
 - 136.4 mm x 105.35 mm
 
+## CAD
+- Designed using KiCad 9.
+
 ## Key Functions
 - Programmable load steps using MOSFET-switched resistor banks.
 - Multiple selectable load levels per rail.
